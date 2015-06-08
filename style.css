@@ -1,0 +1,73 @@
+body
+{
+	font-family: Georgia, Serif;
+	margin:0;
+}
+section
+{
+	padding-top: 70px;
+	margin: auto;
+	max-width: 600px;
+}
+img
+{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding: 4px;
+	border: 1px solid lightgrey;
+	margin-top: 21px;
+	margin-bottom: 21px;
+	border-radius: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	transition: transform 0.4s;
+}
+img:hover
+{
+	-webkit-clip-path: circle(30% at 50% 50%);
+	clip-path: circle(30% at 50% 50%);
+	transform: rotate(360deg);
+}
+h1
+{
+	font-size: 2em;
+	color: #cc6600;
+}
+p
+{
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+ul li
+{
+	font-style: italic;
+	font-size: 0.8em;
+}
+em
+{
+	color: red;
+}
+#nav
+{
+	position: fixed;
+	width: 100%;
+	background-color: #5985FF;
+	height: 90px;
+	margin-left: 0px;
+	margin-top:0px;
+}
+#hide
+{
+	padding: 6px;
+	border-radius: 6px;
+	width: 64px;
+	text-align: center;
+	font-family: Verdana;
+	background-color: grey;
+}
+.bought
+{
+	background-color: green;
+}
